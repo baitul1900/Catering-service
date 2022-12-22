@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#333 !important;
+  }
+
+
+
+
+
+  .navbar {
+    font-family: 'Hind Siliguri', sans-serif !important;
+    background-color: rgba(51, 51, 51, 0.178);
+  }
+
+  a .logo {
+    width: 8vh;
+    transition: all .9s;
+  }
+
+  a:hover {
+    background-color: rgba(150, 224, 224, 0.233);
+  }
+
+  header {
+    background-image: linear-gradient(180deg,
+        rgba(0, 0, 0, .6) 0%,
+        rgba(59, 23, 23, 0.5) 100%),
+      url("../assets/image/menu_hero_image.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    font-family: 'Hind Siliguri', sans-serif !important;
+    background-attachment: fixed;
+  }
+
+  .color-overlay {
+    min-height: 100vh;
+    color: rgb(223, 200, 200);
+  }
+
+  @media (max-width: 767.98px) {
+    .color-overlay {
+      min-height: 100vh;
+    }
+  }
+
+  .card {
+    background-color: rgba(255, 255, 255, 0.247) !important;
+    color: white;
+  }
