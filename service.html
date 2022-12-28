@@ -13,6 +13,8 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/1b8c286e92.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -38,7 +40,7 @@
     <div class="color-overlay d-flex flex-column justify-content-center align-items-center">
       <div class="row d-flex justify-content-center g-3 pt-5 ps-2" style="margin-right: 0px;">
         <div class="col-auto">
-          <p class="display-3 bbb-1 text-white">The Event name here</p>
+          <p class="display-3 bbb-1 text-white">Here is Service</p>
         </div>
 
       </div>
@@ -56,8 +58,26 @@
 
 
   <div class="container mt-5 pt-5">
-   <div class="row">
-    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+   <div class="row justify-content-start" >
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4" data-aos="fade-left">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-text text-center"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, eveniet?</p></div>
+        </div>
+      </div>
+    </div>
+   </div>
+   <div class="row mt-5 justify-content-end align-items-end">
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4" data-aos="fade-up">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-text text-center"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, eveniet?</p></div>
+        </div>
+      </div>
+    </div>
+   </div>
+   <div class="row mt-5 justify-content-start">
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4" data-aos="fade-right">
       <div class="card">
         <div class="card-body">
           <div class="card-text text-center"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, eveniet?</p></div>
@@ -69,8 +89,23 @@
 
 
 
+  <!-- <div class="box a" data-aos="fade-up">
+    <h2>Animated using fade-up.</h2>
+  </div>
+  <div class="box b" data-aos="flip-down">
+    <h2>Animated using flip-down.</h2>
+  </div>
+  <div class="box b" data-aos="">
+    <h2>Animated using zoom-in.</h2>
+  </div> -->
+
+
+
 
       <script>
+        
+        AOS.init();
+
         // When the user scrolls down 20px from the top of the document, slide down the navbar
         window.onscroll = function() {scrollFunction()};
         
