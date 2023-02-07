@@ -21,6 +21,14 @@
   .head-b a:hover {
     background: rgb(136, 7, 7) !important;
   }
+
+  .card-01,
+  .card-02,
+  .card-03 {
+    background: none !important;
+    box-shadow: none !important;
+  }
+
 </style>
 
 <body>
@@ -56,7 +64,7 @@
       </div>
       <div class="row   d-flex justify-content-center align-items-center">
         <div class="col-sm-3 col-md-6 col-lg-12 col-xl-12 col-xxl-12 mb-2 align-items-center head-b">
-          <a href="#" target="_blank" class="btn btn-dark">View All Menu</a>
+          <a href="#" target="_blank" class="btn btn-dark ">View All Menu</a>
         </div>
       </div>
     </div>
@@ -64,32 +72,39 @@
   <!-- hero section end -->
 
   <!--secice section goes here  -->
-  <section class="section-01">
-    <div class="container text-light d-flex justify-content-center align-items-center">
-      <div class="row justify-content-center align-items-center gy-5">
+  <section class="section-01" >
+    <div class="container text-light d-flex justify-content-center align-items-center" style="height: 100%;">
+      <div class="row justify-content-center align-items-center g-4" style="height: 50%;">
         <p class=" display-4 service-head text-center">Our Special Menus</p>
         <hr>
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-          <div class="card text-bg-dark ">
-            <img src="assets/image/service_image01.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center card_overlay_01">
-              <h5 class="card-title display-5">Home Catering</h5>
-              <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.</p>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4  align-self-start" >
+            <div class="card card-01">
+              <img src="/assets/image/hygene_food.jpg" class="card-img-top rounded" alt="..." style="border-radius: 0px !important;">
+              <div class="card-body card-b bbb-1 ">
+                <div class="card-text text-center"><em>Menu 01</em></div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-          <div class="card text-bg-dark ">
-            <img src="assets/image/service_image01.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center card_overlay_01">
-              <h5 class="card-title display-5 text-center">Corporate Catering</h5>
-              <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.</p>
+
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 align-self-center">
+            <div class="card card-02">
+              <img src="/assets/image/fresh_image.jpg" class="card-img-top " alt="..." style="border-radius: 0px !important;">
+              <div class="card-body card-b bbb-1 ">
+                <div class="card-text text-center"><em>Menu 01</em></div>
+              </div>
             </div>
           </div>
-        </div>
+
+
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 align-self-start">
+            <div class="card card-03">
+              <img src="/assets/image/fresh_image.jpg" class="card-img-top"  alt="..." style="border-radius: 0px !important;">
+              <div class="card-body card-b bbb-1 ">
+                <div class="card-text text-center"><em>Menu 01</em></div>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
   </section>
@@ -110,9 +125,9 @@
         <p class="text-center text-white "> Whatever you’re planning – a gorgeous wedding, a high-end corporate event,
           new year party, or anything – we will create an amazing food experience suited to your taste.</p>
       </div>
-      <div class="row   d-flex justify-content-center align-items-center">
-        <div class="col-sm-3 col-md-6 col-lg-12 col-xl-12 col-xxl-12 mb-2 align-items-center">
-          <a href="#" class="btn btn-lg btn-dark">See Our Menu</a>
+      <div class="row  d-flex justify-content-center align-items-center">
+        <div class="col-sm-3 col-md-6 col-lg-12 col-xl-12 col-xxl-12 mb-2 align-items-center head-b">
+          <a href="#" class="btn btn-dark ">See Our Menu</a>
         </div>
       </div>
     </div>
@@ -120,12 +135,13 @@
   <!-- another section end here -->
 
   <!-- feature section -->
-  <div class="container feature mt-5 pt-5">
-    <div class="row mt-5 pt-5 justify-content-center">
-      <p class="display-4 service-head text-center ">Our Feature</p>
+  <section class="section-03" style="margin-bottom: 0px !important;">
+  <div class="container  pb-5">
+    <div class="row pt-5 justify-content-center text-light">
+      <p class="display-4 service-head text-center pt-5 mt-5 pb-3">Our Feature</p>
       <p class="display-6 service-head text-center " style="text-decoration: overline;">We care for</p>
     </div>
-    <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-5 mb-5">
       <div class="col">
         <div class="card h-100 card_service">
           <img src="assets/image/fresh_image.jpg" class="card-img-top" alt="...">
@@ -196,11 +212,12 @@
       </div>
     </div>
   </div>
+</section>
   <!-- feature section -->
 
 
   <!-- footer part start here -->
-  <footer class="site-footer mt-5 pt-5">
+  <footer class="site-footer">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-6">

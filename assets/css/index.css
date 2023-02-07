@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=PT+Sans+Narrow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=PT+Sans+Narrow:wght@400;700&family=Solitreo&display=swap');
 
 :root {
   --fontone: font-family: 'Caveat', cursive;
   --fonttwo:'PT Sans Narrow', sans-serif;
+  --fontthe : 'Solitreo', cursive;
 }
 
 
@@ -11,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: linear-gradient(to right bottom, #fefedf, #e9fde6, #daf9ee, #d6f2f4, #d8ebf4) !important;
+  /* background-image: linear-gradient(to right bottom, #fefedf, #e9fde6, #daf9ee, #d6f2f4, #d8ebf4) !important; */
 }
 
 
@@ -45,12 +47,11 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   color: aliceblue;
-  font-family: 'Hind Siliguri', sans-serif !important;
   background-attachment: fixed;
 }
 
 .bbb-1 {
-  font-family: var(--fonttwo) !important;
+  font-family: var(--fontthe) !important;
   font-style: italic !important;
 }
 
@@ -66,7 +67,7 @@ header {
 }
 
 .service-head {
-  font-family: 'Hind Siliguri', sans-serif !important;
+  font-family: var(--fontthe) !important;
 }
 
 .section-01 {
@@ -74,17 +75,16 @@ header {
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 800px;
+  /* height: 800px; */
 }
 
 .section-01 .container {
   padding-top: 120px;
   padding-bottom: 120px;
-  font
 }
 
 .service-head {
-  font-family: var(--fonttwo) !important;
+  font-family: var(--fontthe) !important;
   font-style: italic !important;
 }
 
@@ -310,4 +310,11 @@ header {
 
 .feature {
   margin-bottom: 20rem;
+}
+
+.section-03 {
+  background: url(/assets/image/part\ 3.svg);
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
 }
