@@ -8,11 +8,11 @@
   <title>Catering Service</title>
   <link rel="stylesheet" href="assets/css/index.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/1b8c286e92.js" crossorigin="anonymous"></script>
 </head>
 <style>
@@ -35,21 +35,29 @@
 
 <body>
   <!-- nav start -->
-  <nav class="navbar navbar-expand-lg w-100 pb-1" style="padding-top: 0px; padding-bottom: 0px;">
+  <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand d-flex flex-column justify-content-center align-items-center" href="#"><img
-          src="assets/image/logo-up.png" alt="logo" style="width: 30% !important;"></a>
+      <a class="navbar-brand d-flex justify-content-center align-items-center w-50" href="#"><img
+          src="assets/image/Logo.png" alt="logo" style="width: 30% !important;"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon d-flex justify-content-start align-items-center"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <nav class="nav nav-pills nav-fill">
-          <a class="nav-link " href="#">Home</a>
-          <a class="nav-link" href="#">Menus</a>
-          <a class="nav-link" href="#">About Us</a>
-          <a class="nav-link " aria-current="page" href="#">Contact US</a>
-        </nav>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ">Contact US</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
@@ -60,7 +68,9 @@
     <div class="color-overlay d-flex flex-column justify-content-center align-items-center">
       <div class="row d-flex justify-content-center g-3 pt-5 ps-2" style="margin-right: 0px;">
         <div class="col-auto">
-          <p class="display-3 bbb-1 text-white text-center">Flavours inspired by the season <br> OCEAN VIEW CAFE</p>
+          <p class="fs-3 bbb-1 text-white text-center">Medoterranean Style Breakfast and Lunch
+          </p>
+          <p class="display-3 bbb-1"> OCEAN VIEW CAFE</p>
         </div>
 
       </div>
@@ -159,7 +169,7 @@
                   <h5 class="card-title">Item name here</h5>
                   <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
                   <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-muted">175$</small></p>
+                  <p class="card-text"><small class="text-white">175$</small></p>
                 </div>
               </div>
             </div>
@@ -176,7 +186,7 @@
                   <h5 class="card-title">Item name here</h5>
                   <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
                   <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-muted">175$</small></p>
+                  <p class="card-text"><small class="text-white">175$</small></p>
                 </div>
               </div>
             </div>
@@ -193,7 +203,7 @@
                   <h5 class="card-title">Item name here</h5>
                   <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
                   <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-muted">175$</small></p>
+                  <p class="card-text"><small class="text-white">175$</small></p>
                 </div>
               </div>
             </div>
@@ -210,7 +220,238 @@
                   <h5 class="card-title">Item name here</h5>
                   <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
                   <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-muted">175$</small></p>
+                  <p class="card-text"><small class="text-white">175$</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bevarage part -->
+      <div class="row  justify-content-center text-light">
+        <p class="display-5 service-head-1 text-center pt-2 pb-2">Beverages</p>
+        <img src="assets/image/Group 55.svg" class="img-fluid svg-55" alt="svg">
+        <p class="h5 service-head-2 text-center pb-3  my-4">single details brings you the best</p>
+      </div>
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Hot Choloclate</h5>
+                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
+                  <p class="card-text">containe with</p>
+                  <p class="card-text"><small class="text-white">5.75$</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Banana Stawberry Smoothie</h5>
+                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
+                  <p class="card-text">containe with</p>
+                  <p class="card-text"><small class="text-white">175$</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Mango Pineapple Smoothie</h5>
+                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
+                  <p class="card-text">containe with</p>
+                  <p class="card-text"><small class="text-light">175$</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Lemonade  or Iced Tea</h5>
+                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
+                  <p class="card-text">containe with</p>
+                  <p class="card-text"><small class="text-light">175$</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desserts part -->
+      <div class="row  justify-content-center text-light">
+        <p class="display-5 service-head-1 text-center pt-2 pb-2">Desserts</p>
+        <img src="assets/image/Group 55.svg" class="img-fluid svg-55" alt="svg">
+        <p class="h5 service-head-2 text-center pb-3  my-4">single details brings you the best</p>
+      </div>
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Nutella Bagel</h5>
+                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
+                  <p class="card-text">containe with</p>
+                  <p class="card-text"><small class="text-white">175$</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Chocolate Croissant</h5>
+                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
+                  <p class="card-text">containe with</p>
+                  <p class="card-text"><small class="text-light">175$</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Butterscotch Croissant</h5>
+                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
+                  <p class="card-text">containe with</p>
+                  <p class="card-text"><small class="text-light">175$</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Mclky's Tooty Fruity</h5>
+                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
+                  <p class="card-text">containe with</p>
+                  <p class="card-text"><small class="text-light">175$</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- sides part -->
+      <div class="row  justify-content-center text-light">
+        <p class="display-5 service-head-1 text-center pt-2 pb-2">Sides</p>
+        <img src="assets/image/Group 55.svg" class="img-fluid svg-55" alt="svg">
+        <p class="h5 service-head-2 text-center pb-3  my-4">single details brings you the best</p>
+      </div>
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Toast</h5>
+                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
+                  <p class="card-text">containe with</p>
+                  <p class="card-text"><small class="text-light">5.00$</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">pancake</h5>
+                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
+                  <p class="card-text">containe with</p>
+                  <p class="card-text"><small class="text-light">7.00$</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Hash Browns</h5>
+                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
+                  <p class="card-text">containe with</p>
+                  <p class="card-text"><small class="text-light">175$</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Sausage</h5>
+                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
+                  <p class="card-text">containe with</p>
+                  <p class="card-text"><small class="text-light">17.00$</small></p>
                 </div>
               </div>
             </div>
@@ -317,8 +558,7 @@
       <div class="row">
         <div class="col-sm-12 col-md-6">
           <h6>About</h6>
-          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum exercitationem animi
-            dolorum tempora vero id est assumenda nulla, temporibus accusantium!</p>
+          <p class="text-justify"></p>
         </div>
 
         <div class="col-xs-6 col-md-3">

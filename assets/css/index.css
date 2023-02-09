@@ -4,8 +4,8 @@
 
 :root {
   --fontone: 'Kalam', cursive;
-  --fonttwo:'PT Sans Narrow', sans-serif;
-  --fontthe : 'Solitreo', cursive;
+  --fonttwo: 'PT Sans Narrow', sans-serif;
+  --fontthe: 'Solitreo', cursive;
 }
 
 
@@ -26,15 +26,16 @@ a .logo {
   transition: all .9s;
 }
 
-.nav a {
+.nav-link {
   font-family: var(--fontone) !important;
   text-decoration: none;
-  color: White;
+  color: White !important;
+  border-radius: 10px;
 }
 
-.nav a:hover {
+.nav-link:hover {
   background-color: rgb(136, 7, 7) !important;
-  color: #f0eaea;
+  color: #f0eaea !important;
 }
 
 header {
@@ -42,7 +43,7 @@ header {
       rgba(0, 0, 0, .6) 0%,
       rgba(0, 0, 0, .5) 100%),
     url("../image/hero_image.jpg");
-  height: 90vh;
+  height: 70vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -56,7 +57,7 @@ header {
 }
 
 .color-overlay {
-  min-height: 100vh;
+  min-height: 60vh !important;
   color: rgb(223, 200, 200);
 }
 
@@ -72,7 +73,7 @@ header {
 
 .section-01 {
   background: url(/assets/image/part\ 01.svg) !important;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   /* height: 800px; */
@@ -84,9 +85,9 @@ header {
 }
 
 .service-head-2 {
-  font-family: var(--fonttwo) ;
+  font-family: var(--fonttwo);
   font-style: italic !important;
-  
+
 }
 
 .card_overlay_01 {
@@ -96,7 +97,7 @@ header {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.card-img  {
+.card-img {
   opacity: 50%;
   border-radius: 20px !important;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -113,7 +114,7 @@ header {
       rgba(0, 0, 0, .6) 0%,
       rgba(0, 0, 0, .5) 100%),
     url("../image/section_2_hero_image.jpg");
-  height: 90vh;
+  height: 80vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -123,7 +124,7 @@ header {
 }
 
 .color-overlay {
-  min-height: 100vh;
+  min-height: 80vh;
   color: rgb(223, 200, 200);
 }
 
@@ -315,8 +316,8 @@ header {
 
 .section-03 {
   background: url(/assets/image/part\ 3.svg);
-  background-size:cover;
-  background-position:center;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -332,7 +333,7 @@ header {
 
 .section-04 .card-title {
   font-family: var(--fontone);
-  color: white; 
+  color: white;
 }
 
 .svg-65 {
@@ -343,3 +344,7 @@ header {
 .svg-55 {
   height: 30px !important;
 }
+
+
+
+/* test */
