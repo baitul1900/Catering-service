@@ -75,7 +75,7 @@ header {
 }
 
 .section-01 {
-  background: url(/assets/image/part\ 01.svg) !important;
+  background: url(../image/part\ 01.svg) !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -320,7 +320,7 @@ header {
 }
 
 .section-03 {
-  background: url(/assets/image/part\ 3.svg);
+  background: url(../image/part\ 3.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
