@@ -18,9 +18,13 @@ body {
 
 
 .navbar {
-  background-color: rgba(36, 34, 34, 0.911) !important;
+  /* background-color: rgba(196, 211, 186, 0.493) !important; */
+  background: transparent;
 }
 
+.nav-logo {
+  width: 300px;
+}
 a .logo {
   width: 8vh;
   transition: all .9s;
@@ -29,7 +33,7 @@ a .logo {
 .nav-link {
   font-family: var(--fontone) !important;
   text-decoration: none;
-  color: White !important;
+  color: rgb(12, 1, 1) !important;
   border-radius: 10px;
 }
 
@@ -43,7 +47,7 @@ header {
       rgba(0, 0, 0, .6) 0%,
       rgba(0, 0, 0, .5) 100%),
     url("../image/hero_image.jpg");
-  height: 70vh;
+  height: 90vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -68,6 +72,14 @@ header {
   .color-overlay {
     min-height: 100vh;
   }
+
+}
+
+@media (max-width: 700px) {
+  .nav-logo {
+    width: 100%;
+  }
+
 }
 
 .service-head-1 {
@@ -313,6 +325,8 @@ header {
     margin-right: 0;
     font-weight: 600
   }
+
+  
 }
 
 .feature {
@@ -351,5 +365,49 @@ header {
 }
 
 
+.image-radius {
+  border-radius: 150px !important;
+}
 
-/* test */
+.object-for-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: 0px 0px;;
+}
+
+.owl-theme .owl-dots {
+  display: none;
+}
+
+.card-text-middle {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 100;
+}
+
+.price {
+  font-size: 21px;
+  color: #eceeef;
+  font-weight: 200;
+  font-family: var(--fontone);
+  padding-bottom: 10px;
+}
+
+@media (max-width: 667px) {
+   
+  .card-01 {
+    margin:auto 20px  !important;
+    box-shadow: none !important;
+  }
+   .card-01 .card-img-top {
+    margin: auto !important;
+    width: 50%;
+    object-fit: cover !important;
+    object-position: 0px 0px !important;
+   }
+}
+
+.card-01 {
+  box-shadow: none !important;
+}

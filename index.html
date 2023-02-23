@@ -10,6 +10,12 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
@@ -35,10 +41,10 @@
 
 <body>
   <!-- nav start -->
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg fixed-top bg-light">
     <div class="container">
       <a class="navbar-brand d-flex justify-content-center align-items-center w-50" href="#"><img
-          src="assets/image/Logo.png" alt="logo" style="width: 30% !important;"></a>
+          src="assets/image/Logo.png" alt="logo" class="nav-logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon d-flex justify-content-start align-items-center"></span>
@@ -84,49 +90,53 @@
   <!-- hero section end -->
 
   <!--secice section goes here  -->
-  <section class="section-01">
+  <section class="section-01" >
     <div class="container text-light d-flex justify-content-center align-items-center" style="height: 100%;">
-      <div class="row justify-content-center align-items-center g-4" style="height: 50%;">
-        <p class=" display-4 service-head-1 text-center">We care for</p>
+      <div class="row justify-content-center align-items-center g-4" style="height: 50%;" >
+        <p class=" display-4 service-head-1 text-center" >About Us</p>
         <hr>
         <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2 col-xxl-2  align-self-start">
-          <div class="card card-01" style="max-height: 500px;">
-            <img src="assets/image/Event & Party.svg" class="card-img-top img-fluid " alt="..."
-              style="border-radius: 0px !important;">
+          <div class="card card-01" style="height: 300px;">
+            <img src="assets/image/about-section-image.jpg" class="card-img-top img-fluid image-radius object-for-image"
+              alt="...">
             <div class="card-body card-b bbb-1 ">
-              <div class="card-text text-center"><em>Event & party</em></div>
+              <div class="card-title text-center fs-3">Owner</div>
+              <div class="card-text text-center"><em>Michel jordan ebrahim khilil abra humi obles</em></div>
             </div>
           </div>
         </div>
 
 
         <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2 col-xxl-2 align-self-center">
-          <div class="card card-02" style="max-height: 500px;">
-            <img src="assets/image/Fresh Environment.svg" class="card-img-top img-fluid " alt="..."
-              style="border-radius: 0px !important;">
+          <div class="card card-01" style="height: 300px;">
+            <img src="assets/image/about-section-image.jpg" class="card-img-top img-fluid image-radius object-for-image"
+              alt="...">
             <div class="card-body card-b bbb-1 ">
-              <div class="card-text text-center"><em>Fresh Environment</em></div>
+              <div class="card-title text-center text-center fs-3">Manager</div>
+              <div class="card-text text-center"><em>Michel jordan ebrahim khilil abra humi obles</em></div>
             </div>
           </div>
         </div>
 
 
         <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2 col-xxl-2 align-self-start">
-          <div class="card card-03" style="max-height: 500px;">
-            <img src="assets/image/Hygenic food.svg" class="card-img-top img-fluid " alt="..."
-              style="border-radius: 0px !important;">
+          <div class="card card-01" style="height: 300px;">
+            <img src="assets/image/about-section-image.jpg" class="card-img-top img-fluid image-radius object-for-image"
+              alt="...">
             <div class="card-body card-b bbb-1 ">
-              <div class="card-text text-center"><em>Hygenic Food</em></div>
+              <div class="card-title text-center text-center fs-3">Chef</div>
+              <div class="card-text text-center"><em>Michel jordan ebrahim khilil abra humi obles</em></div>
             </div>
           </div>
         </div>
 
         <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2 col-xxl-2 align-self-start">
-          <div class="card card-03" style="max-height: 500px;">
-            <img src="assets/image/Skilled Chefs.svg" class="card-img-top img-fluid " alt="..."
-              style="border-radius: 0px !important;">
+          <div class="card card-01" style="height: 300px;">
+            <img src="assets/image/about-section-image.jpg" class="card-img-top img-fluid image-radius object-for-image"
+              alt="...">
             <div class="card-body card-b bbb-1 ">
-              <div class="card-text text-center"><em>Skilled Chefs</em></div>
+              <div class="card-title text-center text-center fs-3">Chef</div>
+              <div class="card-text text-center"><em>Michel jordan ebrahim khilil abra humi obles</em></div>
             </div>
           </div>
         </div>
@@ -167,304 +177,490 @@
         <img src="assets/image/Group 55.svg" class="img-fluid svg-55" alt="svg">
         <p class="h5 service-head-2 text-center pb-3  my-4">single details brings you the best</p>
       </div>
+
       <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
-              </div>
-              <div class="col-md-8">
+        <div class="owl-carousel owl-theme ">
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Item name here</h5>
-                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
-                  <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-white">175$</small></p>
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
                 </div>
               </div>
-            </div>
+            </h4>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
-              </div>
-              <div class="col-md-8">
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Item name here</h5>
-                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
-                  <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-white">175$</small></p>
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
                 </div>
               </div>
-            </div>
+            </h4>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
-              </div>
-              <div class="col-md-8">
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Item name here</h5>
-                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
-                  <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-white">175$</small></p>
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
                 </div>
               </div>
-            </div>
+            </h4>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
-              </div>
-              <div class="col-md-8">
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Item name here</h5>
-                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
-                  <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-white">175$</small></p>
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
                 </div>
               </div>
-            </div>
+            </h4>
+          </div>
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
+                </div>
+              </div>
+            </h4>
+          </div>
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
+                </div>
+              </div>
+            </h4>
+          </div>
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
+                </div>
+              </div>
+            </h4>
+          </div>
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
+                </div>
+              </div>
+            </h4>
           </div>
         </div>
       </div>
+      
 
       <!-- Bevarage part -->
-      <div class="row  justify-content-center text-light">
+      <div class="row  justify-content-center text-light mt-4">
         <p class="display-5 service-head-1 text-center pt-2 pb-2">Beverages</p>
         <img src="assets/image/Group 55.svg" class="img-fluid svg-55" alt="svg">
         <p class="h5 service-head-2 text-center pb-3  my-4">single details brings you the best</p>
       </div>
       <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
-              </div>
-              <div class="col-md-8">
+        <div class="owl-carousel owl-theme ">
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Hot Choloclate</h5>
-                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
-                  <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-white">5.75$</small></p>
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
                 </div>
               </div>
-            </div>
+            </h4>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
-              </div>
-              <div class="col-md-8">
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Banana Stawberry Smoothie</h5>
-                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
-                  <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-white">175$</small></p>
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
                 </div>
               </div>
-            </div>
+            </h4>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
-              </div>
-              <div class="col-md-8">
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Mango Pineapple Smoothie</h5>
-                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
-                  <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-light">175$</small></p>
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
                 </div>
               </div>
-            </div>
+            </h4>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
-              </div>
-              <div class="col-md-8">
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Lemonade or Iced Tea</h5>
-                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
-                  <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-light">175$</small></p>
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
                 </div>
               </div>
-            </div>
+            </h4>
+          </div>
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
+                </div>
+              </div>
+            </h4>
+          </div>
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
+                </div>
+              </div>
+            </h4>
+          </div>
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
+                </div>
+              </div>
+            </h4>
+          </div>
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
+                </div>
+              </div>
+            </h4>
           </div>
         </div>
       </div>
 
       <!-- Desserts part -->
-      <div class="row  justify-content-center text-light">
+      <div class="row  justify-content-center text-light mt-4">
         <p class="display-5 service-head-1 text-center pt-2 pb-2">Desserts</p>
         <img src="assets/image/Group 55.svg" class="img-fluid svg-55" alt="svg">
         <p class="h5 service-head-2 text-center pb-3  my-4">single details brings you the best</p>
       </div>
       <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
-              </div>
-              <div class="col-md-8">
+        <div class="owl-carousel owl-theme ">
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Nutella Bagel</h5>
-                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
-                  <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-white">175$</small></p>
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
                 </div>
               </div>
-            </div>
+            </h4>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
-              </div>
-              <div class="col-md-8">
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Chocolate Croissant</h5>
-                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
-                  <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-light">175$</small></p>
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
                 </div>
               </div>
-            </div>
+            </h4>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
-              </div>
-              <div class="col-md-8">
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Butterscotch Croissant</h5>
-                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
-                  <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-light">175$</small></p>
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
                 </div>
               </div>
-            </div>
+            </h4>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
-              </div>
-              <div class="col-md-8">
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Mclky's Tooty Fruity</h5>
-                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
-                  <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-light">175$</small></p>
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
                 </div>
               </div>
-            </div>
+            </h4>
+          </div>
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
+                </div>
+              </div>
+            </h4>
+          </div>
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
+                </div>
+              </div>
+            </h4>
+          </div>
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
+                </div>
+              </div>
+            </h4>
+          </div>
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
+                </div>
+              </div>
+            </h4>
           </div>
         </div>
       </div>
 
       <!-- sides part -->
-      <div class="row  justify-content-center text-light">
+      <div class="row  justify-content-center text-light mt-4">
         <p class="display-5 service-head-1 text-center pt-2 pb-2">Sides</p>
         <img src="assets/image/Group 55.svg" class="img-fluid svg-55" alt="svg">
         <p class="h5 service-head-2 text-center pb-3  my-4">single details brings you the best</p>
       </div>
       <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
-              </div>
-              <div class="col-md-8">
+        <div class="owl-carousel owl-theme ">
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Toast</h5>
-                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
-                  <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-light">5.00$</small></p>
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
                 </div>
               </div>
-            </div>
+            </h4>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
-              </div>
-              <div class="col-md-8">
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">pancake</h5>
-                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
-                  <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-light">7.00$</small></p>
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
                 </div>
               </div>
-            </div>
+            </h4>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
-              </div>
-              <div class="col-md-8">
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Hash Browns</h5>
-                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
-                  <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-light">175$</small></p>
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
                 </div>
               </div>
-            </div>
+            </h4>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="assets/image/teste-Image.jpg" class="img-fluid rounded-start" alt="card image">
-              </div>
-              <div class="col-md-8">
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Sausage</h5>
-                  <img src="assets/image/Group 65.svg" class="img-fluid svg-65" alt="svg">
-                  <p class="card-text">containe with</p>
-                  <p class="card-text"><small class="text-light">17.00$</small></p>
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
                 </div>
               </div>
-            </div>
+            </h4>
+          </div>
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
+                </div>
+              </div>
+            </h4>
+          </div>
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
+                </div>
+              </div>
+            </h4>
+          </div>
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
+                </div>
+              </div>
+            </h4>
+          </div>
+          <div class="item">
+            <h4 class="text-center">
+              <div class="card" style="height: 430px;">
+                <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Item Name</h5>
+                  <p class="card-text card-text-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quia labore veniam voluptatibus a officiis illum quam eius. Sequi iure possimus ipsa adipisci aliquam rerum iusto officiis nisi tempore consequatur, impedit neque excepturi saepe consectetur placeat corporis eos unde nemo. Nihil, suscipit voluptas atque error quas excepturi ad inventore est!</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted price">Price</small>
+                </div>
+              </div>
+            </h4>
           </div>
         </div>
       </div>
@@ -576,8 +772,34 @@
   </footer>
   <!-- footer part end here -->
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
   <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      navText: ['<button class="owl-prev" style= "color: #be0220;"><i class="fas fa-angle-left"></i></button>', '<button class="owl-next" style= "color: #be0220;"><i class="fas fa-angle-right"></i></button>'],
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 4
+        }
+      }
+    });
+
     AOS.init();
   </script>
 </body>
