@@ -414,5 +414,7 @@ header {
 
 
 /* menu page style */
-
+.font-family {
+  font-family: var(--fontone);
+}
 /* menu page end */
