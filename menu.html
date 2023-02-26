@@ -16,6 +16,8 @@
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/1b8c286e92.js" crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <style>
   body {
@@ -61,8 +63,8 @@
       </div>
     </div>
 
-    <div class="row mt-5 pt-5 mb-5 pt-5 gy-4">
-      <div class="col-sm-12 col-md-3 col-lg-4 col-xl-4 col-xxl-4">
+    <div class="row mt-5 pt-5 mb-5 pt-5 gy-4" data-aos="fade-up">
+      <div class="col-sm-12 col-md-3 col-lg-4 col-xl-4 col-xxl-4" data-aos="fade-up">
         <div class="card bg-transparent border-0">
           <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
           <div class="card-body">
@@ -80,7 +82,7 @@
         </div>
       </div>
 
-      <div class="col-sm-12 col-md-3 col-lg-4 col-xl-4 col-xxl-4">
+      <div class="col-sm-12 col-md-3 col-lg-4 col-xl-4 col-xxl-4" data-aos="fade-up">
         <div class="card bg-transparent border-0">
           <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
           <div class="card-body">
@@ -98,7 +100,7 @@
         </div>
       </div>
 
-      <div class="col-sm-12 col-md-3 col-lg-4 col-xl-4 col-xxl-4">
+      <div class="col-sm-12 col-md-3 col-lg-4 col-xl-4 col-xxl-4" data-aos="fade-up">
         <div class="card bg-transparent border-0">
           <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
           <div class="card-body">
@@ -116,7 +118,7 @@
         </div>
       </div>
 
-      <div class="col-sm-12 col-md-3 col-lg-4 col-xl-4 col-xxl-4">
+      <div class="col-sm-12 col-md-3 col-lg-4 col-xl-4 col-xxl-4" data-aos="fade-up">
         <div class="card bg-transparent border-0">
           <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
           <div class="card-body">
@@ -134,7 +136,7 @@
         </div>
       </div>
 
-      <div class="col-sm-12 col-md-3 col-lg-4 col-xl-4 col-xxl-4">
+      <div class="col-sm-12 col-md-3 col-lg-4 col-xl-4 col-xxl-4" data-aos="fade-up">
         <div class="card bg-transparent border-0">
           <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
           <div class="card-body">
@@ -152,7 +154,7 @@
         </div>
       </div>
 
-      <div class="col-sm-12 col-md-3 col-lg-4 col-xl-4 col-xxl-4">
+      <div class="col-sm-12 col-md-3 col-lg-4 col-xl-4 col-xxl-4" data-aos="fade-up">
         <div class="card bg-transparent border-0">
           <img src="assets/image/image-gal-02.jpg" class="card-img-top object-for-image" alt="...">
           <div class="card-body">
@@ -732,6 +734,23 @@
     </div>
   </footer>
   <!-- footer part end here -->
+
+
+  <script>
+        
+    AOS.init();
+
+    // When the user scrolls down 20px from the top of the document, slide down the navbar
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("navbar").style.top = "0px";
+      } else {
+        document.getElementById("navbar").style.top = "-50px";
+      }
+    }
+    </script>
 </body>
 
 </html>
