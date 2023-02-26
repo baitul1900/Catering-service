@@ -518,13 +518,13 @@ header {
   text-align: justify;
   margin: auto 10px;
   padding-block: 40px;
+  background: transparent !important;
 }
 
-/* .container-about-us {
+.container-about-us {
   position: relative;
   isolation: isolate;
   height: 500px;
-  /* margin-top: 10rem !important; */
 }
 
 .container-about-us::after {
@@ -535,4 +535,4 @@ header {
   z-index: -1;
   transform: skewY(-4deg);
   margin-top: 5rem !important;
-} */
+} 
