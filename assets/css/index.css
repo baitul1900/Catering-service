@@ -522,7 +522,7 @@ header {
 }
 
 .container-about-us {
-background-image: url(/assets/image/about-section-svg.svg) !important;
+background-image: url(../image/about-section-svg.svg) !important;
 background-size: cover;
 color: white;
 font-family: var(--fontone);
