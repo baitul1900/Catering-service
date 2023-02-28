@@ -20,6 +20,16 @@
   body {
     background: transparent !important;
   }
+
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: 0px !important;
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
 </style>
 <body>
   <!-- nav start -->
@@ -190,12 +200,34 @@
   </div>
   <!-- about us end -->
 
+  <!--video part here  -->
+  <!-- why they are part -->
+  <div class="container-fluid  pt-5 section-07 container-about-us pb-5">
+    <div class="container sec-07-con">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-auto">
+                <h1 class="sec-07-h2 text-center">Think About Us</h1>
+                <p class="sec-07-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                    itaque totam sapiente optio officia nulla corporis adipisci unde quaerat? Corporis?</p>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-auto d-flex justify-content-center align-items-center">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/TqwbCRXB4zI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end -->
+  <!-- video part end -->
+
+
 
     <!-- footer part start here -->
     <footer class="site-footer">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-6">
+          <!-- <div class="col-sm-12 col-md-6">
             <h6><img src="assets/image/Logo.png" alt="logo" style="width: 40% !important;"></h6>
             <p class="text-justify">Medoterranean Style Breakfast and Lunch.
               Corporate Event-
@@ -232,7 +264,7 @@
           </div>
         </div>
         <hr>
-      </div>
+      </div>-->
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
